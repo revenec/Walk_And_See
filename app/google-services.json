@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "768659490426",
+    "firebase_url": "https://walkandsee-931a2.firebaseio.com",
+    "project_id": "walkandsee-931a2",
+    "storage_bucket": "walkandsee-931a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768659490426:android:8c7e9854470bf99b749dc3",
+        "android_client_info": {
+          "package_name": "mvf.mikevidev.walkandsee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768659490426-0f5vnoqd2kon817vb2ju6c2mk6cq8iq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW9-CWQMmtk0-pY04hQsj2XrEI3fIYWbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768659490426-0f5vnoqd2kon817vb2ju6c2mk6cq8iq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

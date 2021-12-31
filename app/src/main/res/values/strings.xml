@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Walk And See</string>
+    <string name="walkandsee">Walk And See</string>
+    <string name="title_activity_route">Map</string>
+    <string name="title_activity_places">FullscreenActivity</string>
+    <string name="key">AIzaSyBdqGweqcB97eit2khrIBE6yagMjSb8dIg</string>
+    <string name="title_activity_search_places">Map</string>
+</resources>

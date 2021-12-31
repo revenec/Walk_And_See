@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- we can add an icon by adding the properte android:icon and relate drawable-->
+    <item android:title="Search Places" android:id="@+id/bottomnav_backtosearch" ></item>
+    <item android:title="Create route" android:id="@+id/bottomnav_createroute"></item>
+    <item android:title="Select All" android:id="@+id/bottomnav_select_all"></item>
+</menu>
