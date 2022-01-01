@@ -11,6 +11,7 @@ import android.widget.EditText;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         else
         {
             firebaseAuth = FirebaseAuth.getInstance();
+            Log.i("TAG", "current user: " + firebaseAuth.getCurrentUser());
             if(firebaseAuth.getCurrentUser() == null)
             {
                 firebaseAuth.createUserWithEmailAndPassword(strUser, strPass)
@@ -104,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
         EditText pass = findViewById(R.id.etPassword);
         user.setText("test@test.es");
         pass.setText("123456");
+        FirebaseApp.initializeApp(this);
         doLogin(null);
     }
 
